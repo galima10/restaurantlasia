@@ -31,6 +31,13 @@
 │       ├── reservation/
 │       ├── simple-image-text/
 │       └── two-images-text/
+├── blocks-editor/
+│   ├── src/
+│   │   └── index.js
+│   ├── .gitignore
+│   ├── package-lock.json
+│   ├── package.json
+│   └── vite.config.js
 ├── dist/
 │   ├── editor/
 │   │   └── index.js
