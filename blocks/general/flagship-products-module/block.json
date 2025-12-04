@@ -1,0 +1,27 @@
+{
+  "apiVersion": 3,
+  "name": "theme/flagship-products-module",
+  "icon": "cover-image",
+  "render": "file:./render.php",
+  "attributes": {
+    "datas": {
+      "type": "object",
+      "default": {
+        "backgroundImage": "",
+        "image": {
+          "src": "",
+          "alt": ""
+        },
+        "title": "",
+        "hook": "",
+        "buttonCTA": {
+          "link": "",
+          "text": ""
+        }
+      }
+    }
+  },
+  "editorScript": "theme-editor",
+  "supports": { "multiple": true },
+  "allowedPostTypes": ["page", "front-page"]
+}

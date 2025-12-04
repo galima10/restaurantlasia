@@ -1,0 +1,21 @@
+{
+  "apiVersion": 3,
+  "name": "theme/complex-message-form",
+  "icon": "cover-image",
+  "render": "file:./render.php",
+  "attributes": {
+    "datas": {
+      "type": "object",
+      "default": {
+        "description": {
+          "paragraph1": "",
+          "paragraph2": ""
+        },
+        "backgroundImage": ""
+      }
+    }
+  },
+  "editorScript": "theme-editor",
+  "supports": { "multiple": true },
+  "allowedPostTypes": ["page"]
+}

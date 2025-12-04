@@ -1,0 +1,36 @@
+{
+  "apiVersion": 3,
+  "name": "theme/two-images-text",
+  "icon": "cover-image",
+  "render": "file:./render.php",
+  "attributes": {
+    "datas": {
+      "type": "object",
+      "default": {
+        "title": "",
+        "images": {
+          "img1": {
+            "src": "",
+            "alt": ""
+          },
+          "img2": {
+            "src": "",
+            "alt": ""
+          }
+        },
+        "backgroundImage": "",
+        "description": {
+          "paragraph1": "",
+          "paragraph2": ""
+        },
+        "buttonCTA": {
+          "link": "",
+          "text": ""
+        }
+      }
+    }
+  },
+  "editorScript": "theme-editor",
+  "supports": { "multiple": true },
+  "allowedPostTypes": ["page", "front-page"]
+}

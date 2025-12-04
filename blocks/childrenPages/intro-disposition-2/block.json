@@ -1,0 +1,38 @@
+{
+  "apiVersion": 3,
+  "name": "theme/intro-disposition-2",
+  "icon": "cover-image",
+  "render": "file:./render.php",
+  "attributes": {
+    "datas": {
+      "type": "object",
+      "default": {
+        "images": {
+          "img1": {
+            "src": "",
+            "alt": ""
+          },
+          "img2": {
+            "src": "",
+            "alt": ""
+          },
+          "img3": {
+            "src": "",
+            "alt": ""
+          },
+          "img4": {
+            "src": "",
+            "alt": ""
+          }
+        },
+        "texts": {
+          "text1": "",
+          "text2": ""
+        }
+      }
+    }
+  },
+  "editorScript": "theme-editor",
+  "supports": { "multiple": true },
+  "allowedPostTypes": ["page"]
+}

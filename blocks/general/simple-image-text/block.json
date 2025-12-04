@@ -1,0 +1,19 @@
+{
+  "apiVersion": 3,
+  "name": "theme/simple-image-text",
+  "icon": "cover-image",
+  "render": "file:./render.php",
+  "attributes": {
+    "datas": {
+      "type": "object",
+      "default": {
+        "title": "",
+        "image": { "src": "", "alt": "" },
+        "backgroundImage": ""
+      }
+    }
+  },
+  "editorScript": "theme-editor",
+  "supports": { "multiple": true },
+  "allowedPostTypes": ["page", "front-page"]
+}

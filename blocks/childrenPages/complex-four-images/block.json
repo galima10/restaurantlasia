@@ -1,0 +1,28 @@
+{
+  "apiVersion": 3,
+  "name": "theme/complex-four-images",
+  "icon": "cover-image",
+  "render": "file:./render.php",
+  "attributes": {
+    "datas": {
+      "type": "object",
+      "default": {
+        "title": "",
+        "description": {
+          "paragraph1": "",
+          "paragraph2": ""
+        },
+        "images": {
+          "img1": { "src": "", "alt": "" },
+          "img2": { "src": "", "alt": "" },
+          "img3": { "src": "", "alt": "" },
+          "img4": { "src": "", "alt": "" }
+        },
+        "backgroundImage": ""
+      }
+    }
+  },
+  "editorScript": "theme-editor",
+  "supports": { "multiple": true },
+  "allowedPostTypes": ["page"]
+}

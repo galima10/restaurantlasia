@@ -1,0 +1,22 @@
+{
+  "apiVersion": 3,
+  "name": "theme/local-reviews",
+  "icon": "cover-image",
+  "render": "file:./render.php",
+  "attributes": {
+    "datas": {
+      "type": "object",
+      "default": {
+        "title": "",
+        "description": "",
+        "buttonCTA": {
+          "link": "",
+          "text": ""
+        }
+      }
+    }
+  },
+  "editorScript": "theme-editor",
+  "supports": { "multiple": true },
+  "allowedPostTypes": ["page"]
+}

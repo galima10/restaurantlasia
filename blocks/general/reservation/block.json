@@ -1,0 +1,25 @@
+{
+  "apiVersion": 3,
+  "name": "theme/reservation",
+  "icon": "cover-image",
+  "render": "file:./render.php",
+  "attributes": {
+    "datas": {
+      "type": "object",
+      "default": {
+        "introduction": {
+          "title": "",
+          "description": ""
+        },
+        "physicalReservation": {
+          "slogan": ""
+        },
+        "backgroundImage": "",
+        "confirmationLink": ""
+      }
+    }
+  },
+  "editorScript": "theme-editor",
+  "supports": { "multiple": true },
+  "allowedPostTypes": ["page", "front-page"]
+}

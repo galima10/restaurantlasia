@@ -1,0 +1,23 @@
+{
+  "apiVersion": 3,
+  "name": "theme/google-reviews",
+  "icon": "cover-image",
+  "render": "file:./render.php",
+  "attributes": {
+    "datas": {
+      "type": "object",
+      "default": {
+        "title": "",
+        "description": "",
+        "buttonCTA": {
+          "link": "",
+          "text": ""
+        },
+        "iframe": ""
+      }
+    }
+  },
+  "editorScript": "theme-editor",
+  "supports": { "multiple": true },
+  "allowedPostTypes": ["page"]
+}

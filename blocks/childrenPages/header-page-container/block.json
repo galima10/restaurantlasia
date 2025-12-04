@@ -1,0 +1,26 @@
+{
+  "apiVersion": 3,
+  "name": "theme/header-page-container",
+  "icon": "cover-image",
+  "render": "file:./render.php",
+  "attributes": {
+    "datas": {
+      "type": "object",
+      "default": {
+        "image": {
+          "src": "",
+          "alt": ""
+        }
+      }
+    }
+  },
+  "editorScript": "theme-editor",
+  "supports": {
+    "multiple": false,
+    "lock": {
+      "remove": false,
+      "move": false
+    }
+  },
+  "allowedPostTypes": ["page"]
+}

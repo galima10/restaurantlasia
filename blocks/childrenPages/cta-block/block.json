@@ -1,0 +1,36 @@
+{
+  "apiVersion": 3,
+  "name": "theme/cta-block",
+  "icon": "cover-image",
+  "render": "file:./render.php",
+  "attributes": {
+    "datas": {
+      "type": "object",
+      "default": {
+        "title": "",
+        "description": "",
+        "buttonCTA": {
+          "text": "",
+          "link": ""
+        },
+        "images": {
+          "img1": {
+            "src": "",
+            "alt": ""
+          },
+          "img2": {
+            "src": "",
+            "alt": ""
+          },
+          "img3": {
+            "src": "",
+            "alt": ""
+          }
+        }
+      }
+    }
+  },
+  "editorScript": "theme-editor",
+  "supports": { "multiple": true },
+  "allowedPostTypes": ["page"]
+}

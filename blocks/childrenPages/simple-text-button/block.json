@@ -1,0 +1,21 @@
+{
+  "apiVersion": 3,
+  "name": "theme/simple-text-button",
+  "icon": "cover-image",
+  "render": "file:./render.php",
+  "attributes": {
+    "datas": {
+      "type": "object",
+      "default": {
+        "text": "",
+        "buttonCTA": {
+          "text": "",
+          "link": ""
+        }
+      }
+    }
+  },
+  "editorScript": "theme-editor",
+  "supports": { "multiple": true },
+  "allowedPostTypes": ["page"]
+}
