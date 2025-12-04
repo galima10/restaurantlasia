@@ -95,7 +95,7 @@
 │   ├── package-lock.json
 │   ├── package.json
 │   ├── tsconfig.json
-│   ├── vite.config.js
+│   └── vite.config.js
 ├── footer.php
 ├── front-page.php
 ├── functions.php
