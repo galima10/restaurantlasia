@@ -4,8 +4,8 @@ $datas = $attributes['datas'] ?? [];
 
 // Récupère les posts du CPT "review"
 $reviews_posts = get_posts([
-  'post_type'      => 'review',     // change si tu as un autre slug
-  'posts_per_page' => -1,           // ou un nombre si tu veux limiter (ex: 10)
+  'post_type'      => 'review',     
+  'posts_per_page' => -1,        
   'orderby'        => 'date',
   'order'          => 'DESC',
   'post_status'    => 'publish',
