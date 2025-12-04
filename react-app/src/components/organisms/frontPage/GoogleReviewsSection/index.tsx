@@ -30,7 +30,7 @@ export default function GoogleReviewsSection({
           dangerouslySetInnerHTML={{ __html: datas.iframe }}
         />
       ) : (
-        <p>Aucune carte Google Maps fournie.</p>
+        <p className={styles.noReviews}>Aucune carte Google Maps fournie.</p>
       )}
       <AppButton
         className={styles.cta}
